@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelLibrary;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace Client2forConcuurentServer
 {
@@ -35,7 +37,7 @@ namespace Client2forConcuurentServer
             {
                 while (true)
                 {
-                    
+
                     String SendStr = Console.ReadLine();
                     //Input fra client til server
                     sw.WriteLine(SendStr);
@@ -51,6 +53,11 @@ namespace Client2forConcuurentServer
             }
 
         }
+
+
+
+
+
 
     }
 }

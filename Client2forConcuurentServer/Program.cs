@@ -13,6 +13,8 @@ namespace Client2forConcuurentServer
             Client client = new Client();
             client.StartClient();
 
+            Console.ReadLine();
+
         }
     }
 }

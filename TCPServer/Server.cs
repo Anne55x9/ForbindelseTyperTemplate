@@ -24,13 +24,16 @@ namespace TCPServer
             TcpListener server = new TcpListener(IPAddress.Loopback, 7);
             server.Start();
 
+            //Informere i server consol at server kører.
+            Console.WriteLine("Server er tilsluttet");
+
             //using funktionen sørger for at alt der åbnes lukkes pænt. 
 
 
             //Accept af client - del a 3 way hand shake.
             using (TcpClient client = server.AcceptTcpClient())
 
-                ///
+                
             using (NetworkStream ns = client.GetStream())
 
             //Input fra Client

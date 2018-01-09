@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BEFB833F-A186-4D13-BDC5-B786DB04959D}</ProjectGuid>
+    <ProjectGuid>{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Client2forConcuurentServer</RootNamespace>
-    <AssemblyName>Client2forConcuurentServer</AssemblyName>
+    <RootNamespace>TCPSimpelClientFormater</RootNamespace>
+    <AssemblyName>TCPSimpelClientFormater</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

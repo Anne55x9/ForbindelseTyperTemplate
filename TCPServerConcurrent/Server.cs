@@ -6,6 +6,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using ModelLibrary;
+using Newtonsoft.Json;
 
 namespace TCPServerConcurrent
 {
@@ -26,6 +28,9 @@ namespace TCPServerConcurrent
 
             server.Start();
 
+            //Informere i server consol at server kører.
+            Console.WriteLine("Server er tilsluttet");
+
             //while loop sikre at flere clienter kan connecte til server. Server er derfor concurrent.
             while (true)
             {
@@ -34,6 +39,7 @@ namespace TCPServerConcurrent
                 {
                     TcpClient LokalSocket = client;
                     DoClient(LokalSocket);
+                    
                 });
 
             }
@@ -63,5 +69,7 @@ namespace TCPServerConcurrent
             Console.WriteLine("Server modtaget" + line);
             return line;
         }
+
     }
+    
 }

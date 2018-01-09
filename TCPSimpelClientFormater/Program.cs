@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TCPServerConcurrent
+namespace TCPSimpelClientFormater
 {
     class Program
     {
+        private const int port = 1001;
         static void Main(string[] args)
         {
-            Server server = new Server();
-            server.StartServer();
-            
+            Client client = new Client(port);
+            client.StartClient();
 
             Console.ReadLine();
 

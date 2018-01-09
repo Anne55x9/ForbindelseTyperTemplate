@@ -12,6 +12,8 @@ namespace TCPServer
         {
             Server server = new Server();
             server.StartServer();
+
+            
         }
     }
 }

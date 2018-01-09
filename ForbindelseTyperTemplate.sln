@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPSimpelReceiverFormater",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPSimpelSenderFormater", "UDPSimpelSender\UDPSimpelSenderFormater.csproj", "{4C81DB35-F272-478F-A4E7-12C03045F3C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPSimpleServerFormater", "TCPSimpleServerFormater\TCPSimpleServerFormater.csproj", "{90F0861B-4CA1-4E08-9298-D885D54F412A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPSimpelClientFormater", "TCPSimpelClientFormater\TCPSimpelClientFormater.csproj", "{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{4C81DB35-F272-478F-A4E7-12C03045F3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C81DB35-F272-478F-A4E7-12C03045F3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C81DB35-F272-478F-A4E7-12C03045F3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F0861B-4CA1-4E08-9298-D885D54F412A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F0861B-4CA1-4E08-9298-D885D54F412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F0861B-4CA1-4E08-9298-D885D54F412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F0861B-4CA1-4E08-9298-D885D54F412A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39C2B1E-FBFF-4FCB-ACFC-812DC1C5F785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
